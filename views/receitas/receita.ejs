@@ -1,0 +1,154 @@
+<!-- views/receitas/receita.ejs -->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Receitas</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+  <script src="script.js"></script>
+</head>
+
+
+<body>
+  <header class="container-fluid text-center text-white py-3 ">
+    <div class="container p-4 align-items-center">
+      <h1>Blog Dos Doces Deliciosos</h1>
+      <p class="p">Receitas irresistíveis para adoçar a sua vida!</p>
+    </div>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container bg-transparent">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownReceitas" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Receitas
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownReceitas">
+              <li><a class="dropdown-item" href="/receitas/bolos">Bolos</a></li>
+              <li><a class="dropdown-item" href="/receitas/brigadeiros">Brigadeiros</a></li>
+              <li><a class="dropdown-item" href="/receitas/tortas">Tortas</a></li>
+              <li><a class="dropdown-item" href="/receitas/mousses">Mousses</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contato">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/sobre">Sobre</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main class="container py-5">
+    <div class="receita-section">
+      <h2 class="text-center pb-4">
+        <%= receita.titulo %>
+      </h2>
+      <img src="<%= receita.imagem %>" alt="Imagem da Receita" class="img-fluid recipe-image mb-4">
+
+      <div class="row pt-5 m-1">
+        <div class="col-md-10">
+          <h2 class="mt-2">Massa</h2>
+          <h3 class="subtitulo mt-1">Ingredientes:</h3>
+          <ul>
+            <% for (let ingrediente of receita.massa.ingredientes) { %>
+              <li>
+                <%= ingrediente %>
+              </li>
+              <% } %>
+          </ul>
+
+          <h3 class="subtitulo mt-3">Modo de Preparo:</h3>
+          <ol>
+            <% for (let passo of receita.massa.modoPreparo) { %>
+              <li>
+                <%= passo %>
+              </li>
+              <% } %>
+          </ol>
+
+        </div>
+
+        <div class="col-md-10">
+          <% if (receita.cobertura) { %>
+            <h2 class="mt-3">Cobertura</h2>
+            <h3 class="subtitulo mt-1">Ingredientes:</h3>
+            <ul>
+              <% for(let cobertura of receita.cobertura.ingredientes){%>
+                <li>
+                  <%= cobertura %>
+                </li>
+                <%}%>
+            </ul>
+            <h3 class="subtitulo mt-3">Modo de Preparo:</h3>
+            <ol>
+              <% for (let passo of receita.cobertura.modoPreparo) { %>
+                <li>
+                  <%= passo %>
+                </li>
+                <% } %>
+            </ol>
+
+            <% } %>
+        </div>
+
+        <% if (receita.recheio) { %>
+          <div class="row pt-5 m-1">
+            <div class="col-md-10">
+              <h2 class="mt-1">Recheio</h2>
+              <h3 class="subtitulo mt-3">Ingrientes:</h3>
+              <ul>
+                <% for (let ingrediente of receita.recheio.ingredientes) { %>
+                  <li>
+                    <%= ingrediente %>
+                  </li>
+                  <% } %>
+              </ul>
+
+              <h3 class="subtitulo mt-3">Modo de Preparo do Recheio:</h3>
+              <ul>
+                <% for (let passo of receita.recheio.modoPreparo) { %>
+                  <li>
+                    <%= passo %>
+                  </li>
+                  <% } %>
+              </ul>
+            </div>
+          </div>
+          <% } %>
+      </div>
+    </div>
+  </main>
+
+  <footer class="container-fluid text-white py-3">
+    <div class="container text-center bg-transparent">
+      <p>Todos os direitos reservados &copy; 2023 Blog Dos Doces Deliciosos</p>
+    </div>
+  </footer>
+
+  <div class="back-to-top ">
+    <a href="#header" aria-label="Voltar ao Topo">
+      <i class="fas fa-chevron-up w-100 text-white"></i>
+    </a>
+  </div>
+
+
+</body>
+
+</html>

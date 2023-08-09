@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Dos Doces Deliciosos</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <header class="container-fluid text-center text-white py-3 ">
+    <div class="container p-4 align-items-center">
+      <h1>Blog Dos Doces Deliciosos</h1>
+      <p class="p">Receitas irresistíveis para adoçar a sua vida!</p>
+    </div>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container bg-transparent">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownReceitas" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Receitas
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownReceitas">
+              <li><a class="dropdown-item" href="/receitas/bolos">Bolos</a></li>
+              <li><a class="dropdown-item" href="/receitas/brigadeiros">Brigadeiros</a></li>
+              <li><a class="dropdown-item" href="/receitas/tortas">Tortas</a></li>
+              <li><a class="dropdown-item" href="/receitas/mousses">Mousses</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contato">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/sobre">Sobre</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container py-5">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+
+            <div class="col-12 col-md-6">
+              <a href="/receitas/brigadeiro-coco" class="card-link">
+                <img src="/img/beijinho.jpeg" class="d-block w-100 carousel-img" alt="Receita 2">
+                <div class="carousel-text text-center">Brigadeiro de Coco</div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6">
+              <a href="/receitas/brigadeiro-tradicional" class="card-link">
+                <img src="/img/brigadeiroTrad.jpeg" class="d-block w-100 carousel-img" alt="Receita 2">
+                <div class="carousel-text text-center">Brigadeiro Tradicional</div>
+              </a>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-item ">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <a href="/receitas/brigadeiro-paçoca" class="card-link">
+                <img src="/img/paçoca.jpeg" class="d-block w-100 carousel-img" alt="Receita 1">
+                <div class="carousel-text text-center">Brigadeiro de Paçoca</div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6">
+              <a href="/receitas/brigadeiro-prestigio" class="card-link">
+                <img src="/img/prestígio.jpeg" class="d-block w-100 carousel-img" alt="Receita 2">
+                <div class="carousel-text text-center">Brigadeiro de Prestígio</div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item ">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <a href="/receitas/brigadeiro-stikadinho" class="card-link">
+                <img src="/img/stikadiho.jpeg" class="d-block w-100 carousel-img" alt="Receita 1">
+                <div class="carousel-text text-center">Brigadeiro de Stikadinho</div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6">
+              <a href="/receitas/brigadeiro-ninho" class="card-link">
+                <img src="/img/ninho.jpeg" class="d-block w-100 carousel-img" alt="Receita 2">
+                <div class="carousel-text text-center">Brigadeiro de Ninho</div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item ">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <a href="/receitas/torta-morango" class="card-link">
+                <img src="/img/tortamorango.jpeg" class="d-block w-100 carousel-img" alt="Receita 1">
+                <div class="carousel-text text-center">Torta de Morango</div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6">
+              <a href="/receitas/torta-limao" class="card-link">
+                <img src="/img/tortali.jpeg" class="d-block w-100 carousel-img" alt="Receita 2">
+                <div class="carousel-text text-center">Torta de Limão</div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item ">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <a href="/receitas/bolo-chocolate" class="card-link">
+                <img src="/img/boloCho.jpeg" class="d-block w-100 carousel-img" alt="Receita 1">
+                <div class="carousel-text text-center">Bolo de Chocolate</div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6">
+              <a href="/receitas/bolo-cenoura" class="card-link">
+                <img src="/img/bolo de cenoura.jpeg" class="d-block w-100 carousel-img" alt="Receita 2">
+                <div class="carousel-text text-center">Bolo de Cenoura</div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item ">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <a href="/receitas/mousse-chocolate" class="card-link">
+                <img src="/img/moussechoc.jpeg" class="d-block w-100 carousel-img" alt="Receita 1">
+                <div class="carousel-text text-center">Mousse de Chocolate</div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6">
+              <a href="/receitas/mousse-maracuja" class="card-link">
+                <img src="/img/moussemar.jpeg" class="d-block w-100 carousel-img" alt="Receita 2">
+                <div class="carousel-text text-center">Mousse de Maracujá</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </a>
+    </div>
+
+
+    <div class="receita-section">
+      <h2 class="text-center pb-4">Brigadeiro Tradicional para Festas</h2>
+    
+      <img src="/img/brigadeiroTrad.jpeg" alt="Imagem" class="recipe-image">
+
+
+      <h3>Ingredientes:</h3>
+      <ul>
+        <li>1 lata de leite condensado</li>
+        <li>2 colheres de sopa de cacau em pó</li>
+        <li>1 colher de sopa de manteiga</li>
+        <li>Granulado de chocolate para decorar</li>
+      </ul>
+
+      <h3>Modo de Preparo:</h3>
+      <ol>
+        <li>Em uma panela, coloque o leite condensado, o cacau em pó e a manteiga.</li>
+        <li>Leve ao fogo baixo, mexendo sempre, até que a mistura comece a desgrudar do fundo da panela e atinja o ponto
+          de brigadeiro.</li>
+        <li>Retire do fogo e deixe esfriar.</li>
+        <li>Modele as bolinhas com as mãos untadas com manteiga e passe-as no granulado de chocolate.</li>
+      </ol>
+
+      <h3>Dicas:</h3>
+      <ul>
+        <li>Experimente adicionar uma pitada de sal na mistura para realçar o sabor.</li>
+        <li>Se preferir, substitua o cacau em pó por chocolate em pó.</li>
+        <li>Varie a cobertura, utilizando coco ralado, confeitos coloridos ou nozes picadas.</li>
+      </ul>
+    </div>
+
+
+    <div class="back-to-top ">
+      <a href="#header" aria-label="Voltar ao Topo">
+        <i class="fas fa-chevron-up w-100 text-white"></i>
+      </a>
+    </div>
+  </main>
+  <footer>
+    <div class="container text-center bg-transparent">
+      <p>Todos os direitos reservados &copy; 2023 Blog Dos Doces Deliciosos</p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>

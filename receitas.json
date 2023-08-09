@@ -1,0 +1,759 @@
+{
+  "bolo-de-chocolate": {
+    "titulo": "Bolo de Chocolate",
+    "descricao": "Um delicioso bolo de chocolate e super simples de fazer",
+    "imagem": "/img/boloCho.jpeg",
+    "massa": {
+      "ingredientes": [
+        "3 ovos",
+        "1 xícara de leite",
+        "2 xícaras de açúcar",
+        "1 xícara de óleo",
+        "2 xícaras de farinha de trigo",
+        "1 xícara de chocolate em pó",
+        "1 colher de sopa de fermento em pó"
+      ],
+      "modoPreparo": [
+        "Pré-aqueça o forno a 180°C.",
+        "Em um liquidificador, bata os ovos, o leite, o açúcar e o óleo até obter uma mistura homogênea.",
+        "Em uma tigela, peneire a farinha de trigo e o chocolate em pó.",
+        "Adicione a mistura do liquidificador à tigela com a farinha e o chocolate em pó, mexendo até incorporar bem os ingredientes.",
+        "Acrescente o fermento em pó e misture delicadamente.",
+        "Despeje a massa em uma forma untada e enfarinhada.",
+        "Leve ao forno por aproximadamente 40 minutos ou até que, ao enfiar um palito, ele saia limpo.",
+        "Espere esfriar, desenforme e sirva."
+      ]
+    },
+    "dicas": {
+      "modoPreparo": [
+        "Para a cobertura, você pode utilizar ganache de chocolate, brigadeiro ou uma cobertura de sua preferência."
+      ]
+    }
+  },
+  "bolo-de-limao": {
+    "titulo": "Bolo de Limão",
+    "descricao": "Um delicioso bolo de limão com um toque cítrico",
+    "imagem": "/img/bolo-limao.jpeg",
+    "massa": {
+      "ingredientes": [
+        "3 ovos",
+        "1 xícara de leite",
+        "1 xícara de açúcar",
+        "1/2 xícara de óleo",
+        "2 xícaras de farinha de trigo",
+        "Suco e raspas de 2 limões",
+        "1 colher de sopa de fermento em pó"
+      ],
+      "modoPreparo": [
+        "Pré-aqueça o forno a 180°C.",
+        "Em um liquidificador, bata os ovos, o leite, o açúcar, o óleo e o suco dos limões até obter uma mistura homogênea.",
+        "Em uma tigela, peneire a farinha de trigo.",
+        "Adicione a mistura do liquidificador à tigela com a farinha de trigo, mexendo até incorporar bem os ingredientes.",
+        "Acrescente o fermento em pó e as raspas de limão e misture delicadamente.",
+        "Despeje a massa em uma forma untada e enfarinhada.",
+        "Leve ao forno por aproximadamente 35 a 40 minutos ou até que, ao enfiar um palito, ele saia limpo.",
+        "Espere esfriar, desenforme e sirva.",
+        "Se desejar, você pode preparar uma cobertura de glaçúcar para o bolo de limão."
+      ]
+    }
+  },
+  "brigadeiro-tradicional": {
+    "titulo": "Brigadeiro Tradicional",
+    "imagem": "/img/brigadeiroTrad.jpeg",
+    "descricao": "Um clássico brigadeiro de festa, irresistível!",
+    "massa": {
+      "ingredientes": [
+        "1 lata de leite condensado",
+        "2 colheres de sopa de cacau em pó",
+        "1 colher de sopa de manteiga",
+        "Granulado de chocolate para decorar"
+      ],
+      "modoPreparo": [
+        "Em uma panela, coloque o leite condensado, o cacau em pó e a manteiga.",
+        "Leve ao fogo baixo, mexendo sempre, até que a mistura comece a desgrudar do fundo da panela e atinja o ponto de brigadeiro.",
+        "Retire do fogo e deixe esfriar.",
+        "Modele as bolinhas com as mãos untadas com manteiga e passe-as no granulado de chocolate."
+      ]
+    }
+  },
+  "brigadeiro-paçoca": {
+    "titulo": "Brigadeiro de Paçoca",
+    "imagem": "/img/paçoca.jpeg",
+    "descricao": "Um delicioso brigadeiro com sabor de paçoca.",
+    "massa": {
+      "ingredientes": [
+        "1 lata de leite condensado",
+        "2 colheres de sopa de manteiga",
+        "4 paçocas esfareladas",
+        "Paçocas inteiras para decorar"
+      ],
+      "modoPreparo": [
+        "Em uma panela, coloque o leite condensado e a manteiga.",
+        "Leve ao fogo baixo, mexendo sempre, até que a mistura comece a desgrudar do fundo da panela.",
+        "Adicione as paçocas esfareladas e continue mexendo até atingir o ponto de brigadeiro.",
+        "Desligue o fogo e deixe a massa esfriar completamente.",
+        "Com as mãos untadas com manteiga, faça pequenas bolinhas com a massa e passe-as em paçocas esfareladas para decorar.",
+        "Coloque os brigadeiros em forminhas de papel e sirva."
+      ]
+    }
+  },
+  "brigadeiro-coco": {
+    "titulo": "Brigadeiro de Coco",
+    "imagem": "/img/beijinho.jpeg",
+    "descricao": "Um clássico brigadeiro de festa, simplesmente irresistível!",
+    "massa": {
+      "ingredientes": [
+        "1 lata de leite condensado",
+        "2 colheres de sopa de coco ralado",
+        "1 colher de sopa de manteiga",
+        "Coco em flocos para decorar"
+      ],
+      "modoPreparo": [
+        "Em uma panela, coloque o leite condensado, o coco e a manteiga.",
+        "Leve ao fogo baixo, mexendo sempre, até que a mistura comece a desgrudar do fundo da panela e atinja o ponto de brigadeiro.",
+        "Retire do fogo e deixe esfriar.",
+        "Modele as bolinhas com as mãos untadas com manteiga e passe-as no coco em flocos."
+      ]
+    }
+  },
+  "brigadeiro-stikadinho": {
+    "titulo": "Brigadeiro de Stikadinho",
+    "imagem": "/img/stikadiho.jpeg",
+    "descricao": "Uma deliciosa combinação de brigadeiro tradicional com bolacha Stikadinho.",
+    "massa": {
+      "ingredientes": [
+        "1 lata de leite condensado",
+        "2 colheres de sopa de manteiga",
+        "3 colheres de sopa de chocolate em pó",
+        "1 pacote de bolacha Stikadinho triturada"
+      ],
+      "modoPreparo": [
+        "Em uma panela, adicione o leite condensado, a manteiga e o chocolate em pó.",
+        "Leve ao fogo baixo, mexendo sempre, até desgrudar do fundo da panela e atingir o ponto de brigadeiro.",
+        "Desligue o fogo, adicione a bolacha triturada e misture bem.",
+        "Transfira para um prato untado e deixe esfriar.",
+        "Faça bolinhas e passe-as em bolacha Stikadinho triturada para decorar."
+      ]
+    }
+  },
+  "brigadeiro-napolitano": {
+    "titulo": "Brigadeiro Napolitano",
+    "imagem": "/img/napolitano.jpeg",
+    "descricao": "Uma versão de brigadeiro que combina os sabores de chocolate, morango e baunilha.",
+    "massa": {
+      "ingredientes": [
+        "1 lata de leite condensado",
+        "2 colheres de sopa de manteiga",
+        "3 colheres de sopa de chocolate em pó",
+        "1 colher de chá de essência de baunilha",
+        "1/2 xícara de morangos frescos picados"
+      ],
+      "modoPreparo": [
+        "Em uma panela, adicione o leite condensado, a manteiga e o chocolate em pó.",
+        "Leve ao fogo baixo, mexendo sempre, até desgrudar do fundo da panela e atingir o ponto de brigadeiro.",
+        "Desligue o fogo, adicione a essência de baunilha e misture bem.",
+        "Divida a massa em duas partes.",
+        "Em uma das partes, adicione os morangos picados e misture bem.",
+        "Faça bolinhas de brigadeiro de chocolate e, em seguida, faça uma cavidade no meio de cada uma delas.",
+        "Coloque o brigadeiro de morango dentro da cavidade e feche, modelando novamente em formato de bolinha.",
+        "Passe em confeitos de sua preferência ou em raspas de chocolate."
+      ]
+    }
+  },
+  "brigadeiro-ninho": {
+    "titulo": "Brigadeiro Ninho",
+    "imagem": "/img/ninho.jpeg",
+    "descricao": "Um brigadeiro feito com leite em pó Ninho, cremoso e delicioso.",
+    "massa": {
+      "ingredientes": [
+        "1 lata de leite condensado",
+        "2 colheres de sopa de manteiga",
+        "1 xícara de leite em pó Ninho",
+        "1/2 xícara de leite em pó Ninho para enrolar os brigadeiros"
+      ],
+      "modoPreparo": [
+        "Em uma panela, adicione o leite condensado, a manteiga e o leite em pó Ninho.",
+        "Leve ao fogo baixo, mexendo sempre, até desgrudar do fundo da panela e atingir o ponto de brigadeiro.",
+        "Desligue o fogo e deixe a massa esfriar completamente.",
+        "Com as mãos untadas com manteiga, faça bolinhas com a massa de brigadeiro e passe-as no leite em pó Ninho para decorar."
+      ]
+    }
+  },
+  "brigadeiro-prestigio": {
+    "titulo": "Brigadeiro de Prestígio",
+    "descricao": "O clássico brigadeiro de coco com recheio de chocolate.",
+    "imagem": "/img/prestígio.jpeg",
+    "massa": {
+      "ingredientes": [
+        "1 lata de leite condensado",
+        "2 colheres de sopa de manteiga",
+        "3 colheres de sopa de chocolate em pó",
+        "50g de coco ralado",
+        "Raspas de chocolate para rechear as bolinhas"
+      ],
+      "modoPreparo": [
+        "Em uma panela, adicione o leite condensado, a manteiga, o chocolate em pó e o coco ralado.",
+        "Leve ao fogo baixo, mexendo sempre, até desgrudar do fundo da panela e atingir o ponto de brigadeiro.",
+        "Desligue o fogo e deixe a massa esfriar completamente.",
+        "Com as mãos untadas com manteiga, faça bolinhas com a massa de brigadeiro.",
+        "Faça uma cavidade no meio de cada bolinha e coloque algumas raspas de chocolate.",
+        "Feche a cavidade e modele novamente em formato de bolinha.",
+        "Passe as bolinhas em coco ralado ou em raspas de chocolate para decorar."
+      ]
+    }
+  },
+  "torta-limao": {
+    "titulo": "Torta de Limão",
+    "descricao": "Uma torta refrescante de limão com massa crocante e recheio cremoso.",
+    "imagem": "/img/torta limao.jpeg",
+    "massa": {
+      "ingredientes": [
+        "2 xícaras de farinha de trigo",
+        "1/2 xícara de açúcar",
+        "150g de manteiga gelada em cubos",
+        "1 ovo",
+        "2 colheres de sopa de água gelada"
+      ],
+      "modoPreparo": [
+        "Em uma tigela, misture a farinha e o açúcar.",
+        "Adicione a manteiga gelada em cubos e misture com as pontas dos dedos até formar uma farofa.",
+        "Em um recipiente separado, bata o ovo com a água gelada e adicione à mistura de farinha.",
+        "Misture até obter uma massa homogênea.",
+        "Embrulhe a massa em filme plástico e leve à geladeira por 30 minutos.",
+        "Após o descanso, abra a massa com um rolo e forre uma forma de torta.",
+        "Faça alguns furos na massa com um garfo e leve ao forno preaquecido a 180°C por aproximadamente 20 minutos ou até dourar levemente.",
+        "Deixe a massa esfriar antes de adicionar o recheio."
+      ]
+    },
+    "recheio": {
+      "ingredientes": [
+        "1 lata de leite condensado",
+        "1/2 xícara de suco de limão",
+        "Raspas de 2 limões",
+        "3 gemas"
+      ],
+      "modoPreparo": [
+        "Em uma tigela, misture o leite condensado, o suco de limão e as raspas de limão.",
+        "Adicione as gemas e misture bem até obter um creme homogêneo.",
+        "Espalhe o creme de limão sobre a massa da torta já fria.",
+        "Leve a torta à geladeira por algumas horas até firmar.",
+        "Sirva gelada e decore com mais raspas de limão, se desejar."
+      ]
+    }
+  },
+  "torta-de-maracuja": {
+    "titulo": "Torta de Maracujá",
+    "descricao": "Uma torta deliciosa de maracujá com massa crocante e recheio cremoso.",
+    "imagem": "/img/torta maracujá.jpeg",
+    "massa": {
+      "ingredientes": [
+        "200g de biscoito maisena",
+        "100g de manteiga derretida"
+      ],
+      "modoPreparo": [
+        "Triture os biscoitos maisena até formar uma farofa fina.",
+        "Adicione a manteiga derretida e misture bem até obter uma massa homogênea.",
+        "Forre o fundo e as laterais de uma forma de fundo removível com a massa, pressionando bem.",
+        "Leve a forma ao freezer enquanto prepara o recheio."
+      ]
+    },
+    "recheio": {
+      "ingredientes": [
+        "1 lata de leite condensado",
+        "1 lata de creme de leite",
+        "1/2 xícara de suco de maracujá concentrado (polpa)",
+        "1 colher de sopa de gelatina incolor (sem sabor)",
+        "3 colheres de sopa de água"
+      ],
+      "modoPreparo": [
+        "Em uma tigela, misture o leite condensado, o creme de leite e o suco de maracujá.",
+        "Em outro recipiente, hidrate a gelatina incolor na água e leve ao microondas por alguns segundos para dissolver.",
+        "Adicione a gelatina dissolvida à mistura de leite condensado e maracujá, mexendo bem.",
+        "Despeje o recheio sobre a massa na forma e leve à geladeira por pelo menos 3 horas para firmar."
+      ]
+    },
+    "cobertura": {
+      "ingredientes": [
+        "1 xícara de polpa de maracujá (com as sementes)",
+        "1/2 xícara de água",
+        "1/2 xícara de açúcar"
+      ],
+      "modoPreparo": [
+        "Em uma panela, coloque a polpa de maracujá, a água e o açúcar.",
+        "Leve ao fogo médio e deixe ferver por alguns minutos, até obter uma calda espessa.",
+        "Deixe a calda esfriar.",
+        "Retire a torta da geladeira e despeje a calda de maracujá sobre o recheio.",
+        "Espalhe bem a calda para cobrir toda a superfície da torta.",
+        "Leve a torta de volta à geladeira por mais algumas horas, até que a cobertura esteja firme.",
+        "Após, retire a torta da forma, coloque em um prato de servir e decore com algumas sementes de maracujá por cima.",
+        "Sirva gelada e aproveite essa deliciosa torta de maracujá!"
+      ]
+    }
+  },
+  "torta-morango": {
+    "titulo": "Torta de Morango",
+    "imagem": "../img/tortamorango.jpeg",
+    "descricao": "Uma deliciosa torta de morango com massa crocante e recheio cremoso.",
+    "massa": {
+      "ingredientes": [
+        "2 xícaras de farinha de trigo",
+        "1/2 xícara de açúcar",
+        "150g de manteiga gelada em cubos",
+        "1 ovo",
+        "2 colheres de sopa de água gelada"
+      ],
+      "modoPreparo": [
+        "Em uma tigela, misture a farinha e o açúcar.",
+        "Adicione a manteiga gelada em cubos e misture com as pontas dos dedos até formar uma farofa.",
+        "Em um recipiente separado, bata o ovo com a água gelada e adicione à mistura de farinha.",
+        "Misture até obter uma massa homogênea.",
+        "Embrulhe a massa em filme plástico e leve à geladeira por 30 minutos.",
+        "Após o descanso, abra a massa com um rolo e forre uma forma de torta.",
+        "Faça alguns furos na massa com um garfo e leve ao forno preaquecido a 180°C por aproximadamente 20 minutos ou até dourar levemente.",
+        "Deixe a massa esfriar antes de adicionar o recheio."
+      ]
+    },
+    "recheio": {
+      "ingredientes": [
+        "1 lata de leite condensado",
+        "1 caixa de creme de leite",
+        "1/2 xícara de leite",
+        "2 colheres de sopa de amido de milho",
+        "1 colher de chá de essência de baunilha",
+        "400g de morangos lavados e cortados em fatias"
+      ],
+      "modoPreparo": [
+        "Em uma panela, misture o leite condensado, o creme de leite, o leite, o amido de milho e a essência de baunilha.",
+        "Leve ao fogo médio, mexendo sempre, até o creme engrossar.",
+        "Retire do fogo e deixe esfriar um pouco.",
+        "Espalhe metade do creme sobre a massa já fria.",
+        "Distribua as fatias de morango por cima do creme.",
+        "Cubra com o restante do creme.",
+        "Leve à geladeira por algumas horas até firmar.",
+        "Decore com morangos inteiros antes de servir."
+      ]
+    }
+  },
+  "torta-banana": {
+    "titulo": "Torta de Banana Caramelada",
+    "imagem": "../img/tortabanana.jpeg",
+    "descricao": "Uma torta deliciosa com bananas carameladas e massa crocante.",
+    "massa": {
+      "ingredientes": [
+        "2 xícaras de farinha de trigo",
+        "1/2 xícara de açúcar",
+        "150g de manteiga gelada em cubos",
+        "1 ovo",
+        "2 colheres de sopa de água gelada"
+      ],
+      "modoPreparo": [
+        "Em uma tigela, misture a farinha e o açúcar.",
+        "Adicione a manteiga gelada em cubos e misture com as pontas dos dedos até formar uma farofa.",
+        "Em um recipiente separado, bata o ovo com a água gelada e adicione à mistura de farinha.",
+        "Misture até obter uma massa homogênea.",
+        "Embrulhe a massa em filme plástico e leve à geladeira por 30 minutos.",
+        "Após o descanso, abra a massa com um rolo e forre uma forma de torta.",
+        "Faça alguns furos na massa com um garfo e leve ao forno preaquecido a 180°C por aproximadamente 20 minutos ou até dourar levemente.",
+        "Deixe a massa esfriar antes de adicionar o recheio."
+      ]
+    },
+    "recheio": {
+      "ingredientes": [
+        "6 bananas maduras",
+        "1/2 xícara de açúcar",
+        "2 colheres de sopa de manteiga",
+        "1/2 xícara de água"
+      ],
+      "modoPreparo": [
+        "Descasque as bananas e corte-as em rodelas.",
+        "Em uma panela, derreta o açúcar até formar um caramelo dourado.",
+        "Adicione a manteiga e misture até derreter completamente.",
+        "Cuidadosamente, adicione a água quente para dissolver o caramelo.",
+        "Adicione as bananas e cozinhe por alguns minutos até ficarem macias e carameladas.",
+        "Despeje o recheio sobre a massa já fria.",
+        "Leve à geladeira por algumas horas até firmar.",
+        "Sirva gelada e aproveite essa deliciosa torta de banana caramelada."
+      ]
+    }
+  },
+  "torta-morangochocolate": {
+    "titulo": "Torta de Morango com Chocolate",
+    "imagem": "../img/tortamorangochocolate",
+    "descricao": "Uma combinação irresistível de morangos frescos e chocolate.",
+    "massa": {
+      "ingredientes": [
+        "2 xícaras de farinha de trigo",
+        "1/2 xícara de açúcar",
+        "150g de manteiga gelada em cubos",
+        "1 ovo",
+        "2 colheres de sopa de água gelada"
+      ],
+      "modoPreparo": [
+        "Em uma tigela, misture a farinha e o açúcar.",
+        "Adicione a manteiga gelada em cubos e misture com as pontas dos dedos até formar uma farofa.",
+        "Em um recipiente separado, bata o ovo com a água gelada e adicione à mistura de farinha.",
+        "Misture até obter uma massa homogênea.",
+        "Embrulhe a massa em filme plástico e leve à geladeira por 30 minutos.",
+        "Após o descanso, abra a massa com um rolo e forre uma forma de torta.",
+        "Faça alguns furos na massa com um garfo e leve ao forno preaquecido a 180°C por aproximadamente 20 minutos ou até dourar levemente.",
+        "Deixe a massa esfriar antes de adicionar o recheio."
+      ]
+    },
+    "recheio": {
+      "ingredientes": [
+        "300g de morangos frescos lavados e cortados em fatias",
+        "200g de chocolate meio amargo",
+        "1 caixa de creme de leite"
+      ],
+      "modoPreparo": [
+        "Em uma panela, derreta o chocolate meio amargo em banho-maria.",
+        "Retire do fogo e misture o creme de leite até obter um ganache cremoso.",
+        "Espalhe metade do ganache sobre a massa já fria.",
+        "Distribua as fatias de morango por cima do ganache.",
+        "Cubra com o restante do ganache.",
+        "Leve à geladeira por algumas horas até firmar.",
+        "Decore com morangos inteiros e raspas de chocolate antes de servir."
+      ]
+    }
+  },
+  "torta-maca": {
+    "titulo": "Torta de Maçã",
+    "imagem": "/img/tortamaca.jpeg",
+    "descricao": "Uma torta clássica com maçãs caramelizadas e uma deliciosa cobertura crocante.",
+    "ingredientes": [
+      "4 maçãs médias descascadas e fatiadas",
+      "Suco de 1 limão",
+      "1/2 xícara de açúcar",
+      "1 colher de chá de canela em pó",
+      "1 xícara de farinha de trigo",
+      "1/2 xícara de açúcar mascavo",
+      "1/2 xícara de manteiga gelada em cubos",
+      "1 pitada de sal"
+    ],
+    "modoPreparo": [
+      "Preaqueça o forno a 180°C.",
+      "Em uma tigela, misture as maçãs fatiadas com o suco de limão, 1/2 xícara de açúcar e a canela em pó.",
+      "Em outra tigela, misture a farinha de trigo, o açúcar mascavo e o sal.",
+      "Adicione a manteiga gelada em cubos à mistura de farinha e, com as pontas dos dedos, vá incorporando até formar uma farofa.",
+      "Forre uma forma de torta com metade da farofa, pressionando bem para formar a base.",
+      "Distribua as maçãs caramelizadas sobre a base da torta.",
+      "Cubra as maçãs com o restante da farofa.",
+      "Leve ao forno por aproximadamente 40 minutos ou até que a torta esteja dourada e as maçãs estejam macias.",
+      "Deixe esfriar antes de desenformar e servir."
+    ]
+  },
+  "torta-limão": {
+    "titulo": "Torta de Limão com Merengue",
+    "imagem": "/img/tortali.jpeg",
+    "descricao": "Uma torta cítrica com recheio de limão e cobertura de merengue.",
+    "massa":{
+      "ingredientes": [
+        "1 pacote de biscoito maisena",
+        "100g de manteiga derretida",
+        "3 gemas",
+        "1 lata de leite condensado",
+        "Suco e raspas de 2 limões",
+        "3 claras",
+        "6 colheres de sopa de açúcar"
+      ],
+      "modoPreparo": [
+        "Triture o biscoito maisena até formar uma farofa fina.",
+        "Adicione a manteiga derretida à farofa de biscoito e misture bem.",
+        "Forre o fundo e as laterais de uma forma de fundo removível com a massa de biscoito, pressionando bem.",
+        "Leve a forma ao freezer enquanto prepara o recheio.",
+        "Em uma tigela, misture as gemas, o leite condensado, o suco e as raspas de limão até obter um creme homogêneo.",
+        "Despeje o recheio sobre a massa da torta já fria.",
+        "Em outra tigela, bata as claras em neve até ficarem firmes.",
+        "Adicione o açúcar aos poucos e continue batendo até obter um merengue brilhante.",
+        "Cubra o recheio da torta com o merengue, formando picos com as costas de uma colher.",
+        "Leve a torta ao forno preaquecido a 180°C por aproximadamente 15 minutos ou até dourar o merengue"
+      ]
+    }
+  },
+  "bolo-de-cenoura": {
+    "titulo": "Bolo de Cenoura",
+    "descricao": "Um bolo macio e saboroso feito com cenoura e cobertura de chocolate.",
+    "imagem": "/img/bolo de cenoura.jpeg",
+    "massa": {
+      "ingredientes": [
+        "3 cenouras médias",
+        "3 ovos",
+        "1 xícara de óleo",
+        "2 xícaras de açúcar",
+        "2 xícaras de farinha de trigo",
+        "1 colher de sopa de fermento em pó"
+      ],
+      "modoPreparo": [
+        "Preaqueça o forno a 180°C.",
+        "No liquidificador, bata as cenouras, os ovos e o óleo até obter uma mistura homogênea.",
+        "Em uma tigela, misture o açúcar, a farinha de trigo e o fermento em pó.",
+        "Adicione a mistura de cenoura à tigela com os ingredientes secos e misture bem.",
+        "Despeje a massa em uma forma untada e enfarinhada.",
+        "Asse por aproximadamente 30 minutos ou até que um palito saia limpo ao ser inserido no centro do bolo.",
+        "Deixe esfriar antes de desenformar e servir."
+      ]
+    },
+    "cobertura": {
+      "ingredientes": [
+        "1 xícara de açúcar",
+        "7 colheres de sopa de leite",
+        "1 colher de sopa de manteiga",
+        "3 colheres de sopa de chocolate em pó"
+      ],
+      "modoPreparo": [
+        "Em uma panela, misture o açúcar, o leite, a manteiga e o chocolate em pó.",
+        "Leve ao fogo baixo e mexa bem até obter uma calda homogênea.",
+        "Despeje a calda quente sobre o bolo já assado e frio, espalhando-a uniformemente.",
+        "Deixe a calda esfriar e solidificar antes de servir o bolo."
+      ]
+    }
+  },
+  "bolo-de-coco": {
+    "titulo": "Bolo de Coco",
+    "descricao": "Um delicioso bolo de coco com calda de leite de coco",
+    "imagem": "/img/bolo de coco.jpeg",
+    "massa": {
+      "ingredientes": [
+        "3 ovos",
+        "2 xícaras de chá de açúcar",
+        "Meia xícara de chá de óleo",
+        "1 xícara de chá de leite",
+        "100 gramas de coco ralado",
+        "2 xícaras de chá de farinha de trigo",
+        "1 colher de fermento em pó"
+      ],
+      "modoPreparo": [
+        "No liquidificador, coloque 3 ovos, 2 xícaras de chá de açúcar, meia xícara de chá de óleo e 1 xícara de chá de leite. Bata até ficar homogêneo.",
+        "Depois, adicione 100 gramas de coco ralado, 2 xícaras de chá de farinha de trigo e 1 colher de fermento em pó. Bata mais um pouco.",
+        "Coloque a massa em uma forma untada e enfarinhada. Leve para assar em forno médio preaquecido por cerca de 40 minutos."
+      ]
+    },
+    "cobertura": {
+      "ingredientes": [
+        "200ml de leite de coco",
+        "1 colher de sopa de amido de milho",
+        "1 colher de sopa de açúcar"
+      ],
+      "modoPreparo": [
+        "Misture todos os ingredientes mexa sem parar até levantar fervura.",
+        "Com um garfo, faça furinhos no bolo para absorver a calda.",
+        "Despeje a calda e sirva em seguida."
+      ]
+    }
+  },
+  "bolo-fuba": {
+    "titulo": "Bolo de Fubá",
+    "imagem": "/img/bolo-fuba.jpeg",
+    "descricao": "Um bolo tradicional com sabor de casa de vó.",
+    "massa": {
+      "ingredientes": [
+        "3 ovos",
+        "2 xícaras de açúcar",
+        "1 xícara de óleo",
+        "2 xícaras de fubá",
+        "1 xícara de farinha de trigo",
+        "1 colher de sopa de fermento em pó",
+        "2 xícaras de leite",
+        "1 pitada de sal"
+      ],
+      "modoPreparo": [
+        "Preaqueça o forno a 180°C.",
+        "No liquidificador, bata os ovos, o açúcar, o óleo e o leite até obter uma mistura homogênea.",
+        "Em uma tigela, misture o fubá, a farinha de trigo, o fermento em pó e o sal.",
+        "Adicione a mistura do liquidificador à tigela com os ingredientes secos e misture bem.",
+        "Despeje a massa em uma forma untada e enfarinhada.",
+        "Asse por aproximadamente 40 minutos ou até que um palito saia limpo ao ser inserido no centro do bolo.",
+        "Espere esfriar antes de servir."
+      ]
+    }
+  },
+  "bolo-laranja": {
+    "titulo": "Bolo de Laranja com Cobertura de Glacê",
+    "descricao": "Um bolo fofinho de laranja com uma deliciosa cobertura de glacê.",
+    "imagem": "/img/bololaranja.jpeg",
+    "massa": {
+      "ingredientes": [
+        "3 ovos",
+        "1 xícara de suco de laranja natural",
+        "1 xícara de açúcar",
+        "1/2 xícara de óleo",
+        "2 xícaras de farinha de trigo",
+        "1 colher de sopa de fermento em pó"
+      ],
+      "modoPreparo": [
+        "Preaqueça o forno a 180°C.",
+        "Em um liquidificador, bata os ovos, o suco de laranja, o açúcar e o óleo até obter uma mistura homogênea.",
+        "Em uma tigela, peneire a farinha de trigo.",
+        "Adicione a mistura do liquidificador à tigela com a farinha de trigo, mexendo até incorporar bem os ingredientes.",
+        "Acrescente o fermento em pó e misture delicadamente.",
+        "Despeje a massa em uma forma untada e enfarinhada.",
+        "Leve ao forno por aproximadamente 35 a 40 minutos ou até que, ao enfiar um palito, ele saia limpo.",
+        "Espere esfriar, desenforme e prepare a cobertura."
+      ]
+    },
+    "cobertura": {
+      "ingredientes": [
+        "1 xícara de açúcar de confeiteiro",
+        "2 colheres de sopa de suco de laranja"
+      ],
+      "modoPreparo": [
+        "Em uma tigela, misture o açúcar de confeiteiro com o suco de laranja até obter uma cobertura lisa e homogênea.",
+        "Despeje o glacê sobre o bolo já frio, espalhando-o com uma colher ou espátula.",
+        "Decore o bolo com raspas de laranja ou fatias de laranja, se desejar.",
+        "Sirva o bolo de laranja com a cobertura de glacê de açúcar e aproveite!"
+      ]
+    }
+  },
+  "brigadeiro-de-pacoca": {
+    "titulo": "Brigadeiro de Paçoca",
+    "descricao": "Um delicioso brigadeiro com sabor de paçoca.",
+    "imagem": "/img/paçoca.jpeg",
+    "massa": {
+      "ingredientes": [
+        "1 lata de leite condensado",
+        "2 colheres de sopa de manteiga",
+        "4 paçocas esfareladas",
+        "Paçocas inteiras para decorar"
+      ],
+      "modoPreparo": [
+        "Em uma panela, coloque o leite condensado e a manteiga.",
+        "Leve ao fogo baixo, mexendo sempre, até que a mistura comece a desgrudar do fundo da panela.",
+        "Adicione as paçocas esfareladas e continue mexendo até atingir o ponto de brigadeiro.",
+        "Desligue o fogo e deixe a massa esfriar completamente.",
+        "Com as mãos untadas com manteiga, faça pequenas bolinhas com a massa e passe-as em paçocas esfareladas para decorar.",
+        "Coloque os brigadeiros em forminhas de papel e sirva."
+      ]
+    }
+  },
+  "mousse-morango": {
+    "titulo": "Mousse de Morango",
+    "imagem": "/img/moussemorango.jpeg",
+    "descricao": "Uma mousse leve e refrescante com o sabor irresistível do morango.",
+    "massa": {
+      "ingredientes": [
+        "1 caixa de morangos lavados e picados",
+        "1 lata de leite condensado",
+        "1 lata de creme de leite",
+        "1 envelope de gelatina sem sabor",
+        "1/4 de xícara de água",
+        "Morangos para decorar"
+      ],
+      "modoPreparo": [
+        "Em um liquidificador, bata os morangos, o leite condensado e o creme de leite até obter um creme homogêneo.",
+        "Hidrate a gelatina na água e leve ao microondas por alguns segundos para dissolver.",
+        "Adicione a gelatina dissolvida ao creme de morango e bata novamente até incorporar.",
+        "Despeje a mousse em taças individuais e leve à geladeira por pelo menos 4 horas ou até firmar.",
+        "Decore com morangos antes de servir."
+      ]
+    }
+  },
+  "mousse-maracuja": {
+    "titulo": "Mousse de Maracujá",
+    "imagem": "/img/moussemar.jpeg",
+    "descricao": "Uma mousse tropical com o sabor marcante do maracujá.",
+    "massa": {
+      "ingredientes": [
+        "1 lata de leite condensado",
+        "1 lata de creme de leite",
+        "1/2 xícara de suco concentrado de maracujá (polpa)",
+        "1 envelope de gelatina sem sabor",
+        "1/4 de xícara de água",
+        "Sementes de maracujá para decorar"
+      ],
+      "modoPreparo": [
+        "Em um liquidificador, bata o leite condensado, o creme de leite e o suco de maracujá até obter um creme homogêneo.",
+        "Hidrate a gelatina na água e leve ao microondas por alguns segundos para dissolver.",
+        "Adicione a gelatina dissolvida ao creme de maracujá e bata novamente até incorporar.",
+        "Despeje a mousse em taças individuais e leve à geladeira por pelo menos 4 horas ou até firmar.",
+        "Antes de servir, decore com sementes de maracujá."
+      ]
+    }
+  },
+  "mousse-limão": {
+    "titulo": "Mousse de Limão",
+    "imagem": "/img/mousselimão.jpeg",
+    "descricao": "Uma mousse cítrica e refrescante com o sabor do limão.",
+    "massa": {
+      "ingredientes": [
+        "1 lata de leite condensado",
+        "1 lata de creme de leite",
+        "Suco e raspas de 2 limões",
+        "1 envelope de gelatina sem sabor",
+        "1/4 de xícara de água",
+        "Fatias de limão para decorar"
+      ],
+      "modoPreparo": [
+        "Em um liquidificador, bata o leite condensado, o creme de leite, o suco e as raspas de limão até obter um creme homogêneo.",
+        "Hidrate a gelatina na água e leve ao microondas por alguns segundos para dissolver.",
+        "Adicione a gelatina dissolvida ao creme de limão e bata novamente até incorporar.",
+        "Despeje a mousse em taças individuais e leve à geladeira por pelo menos 4 horas ou até firmar.",
+        "Decore com fatias de limão antes de servir."
+      ]
+    }
+  },
+  "mousse-chocolate": {
+    "titulo": "Mousse de Chocolate",
+    "imagem": "/img/moussechoc.jpeg",
+    "descricao": "Uma mousse cremosa e irresistível de chocolate.",
+    "massa": {
+      "ingredientes": [
+        "200g de chocolate meio amargo",
+        "1 lata de creme de leite",
+        "3 claras de ovos",
+        "3 colheres de sopa de açúcar",
+        "Raspas de chocolate para decorar"
+      ],
+      "modoPreparo": [
+        "Derreta o chocolate em banho-maria ou no microondas.",
+        "Misture o creme de leite ao chocolate derretido até obter um creme liso e homogêneo.",
+        "Bata as claras em neve, adicionando o açúcar aos poucos, até obter picos firmes.",
+        "Incorpore delicadamente as claras ao creme de chocolate, fazendo movimentos de baixo para cima para não perder o volume.",
+        "Divida a mousse em taças individuais e leve à geladeira por pelo menos 2 horas ou até firmar.",
+        "Antes de servir, decore com raspas de chocolate."
+      ]
+    }
+  },
+  "mousse-manga": {
+    "titulo": "Mousse de Manga",
+    "imagem": "/img/moussemanga.jpeg",
+    "descricao": "Uma mousse tropical com o doce sabor da manga.",
+    "massa": {
+      "ingredientes": [
+        "2 mangas maduras",
+        "1 lata de creme de leite",
+        "1 lata de leite condensado",
+        "1 envelope de gelatina sem sabor",
+        "1/4 de xícara de água",
+        "Fatias de manga para decorar"
+      ],
+      "modoPreparo": [
+        "Descasque e pique as mangas em pedaços.",
+        "Em um liquidificador, bata as mangas, o creme de leite e o leite condensado até obter um creme homogêneo.",
+        "Hidrate a gelatina na água e leve ao microondas por alguns segundos para dissolver.",
+        "Adicione a gelatina dissolvida ao creme de manga e bata novamente até incorporar.",
+        "Despeje a mousse em taças individuais e leve à geladeira por pelo menos 4 horas ou até firmar.",
+        "Antes de servir, decore com fatias de manga."
+      ]
+    }
+  },
+  "mousse-banana": {
+    "titulo": "Mousse de Banana",
+    "imagem": "/img/moussebanana.jpeg",
+    "descricao": "Uma mousse suave e saborosa feita com bananas maduras.",
+    "massa": {
+      "ingredientes": [
+        "4 bananas maduras",
+        "1 lata de creme de leite",
+        "1 lata de leite condensado",
+        "Suco de 1 limão",
+        "Rodelas de banana para decorar"
+      ],
+      "modoPreparo": [
+        "Descasque e amasse as bananas com um garfo.",
+        "Em um liquidificador, bata as bananas amassadas, o creme de leite, o leite condensado e o suco de limão até obter um creme homogêneo.",
+        "Despeje a mousse em taças individuais e leve à geladeira por pelo menos 2 horas ou até firmar.",
+        "Antes de servir, decore com rodelas de banana."
+      ]
+    }
+  }
+}
